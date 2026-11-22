@@ -1,0 +1,19 @@
+# Chiavi e Sicurezza
+.ssh/
+.gnupg/
+*.pem
+*.key
+.env
+
+# Cronologia dei comandi (spesso contengono password digitate in chiaro per errore)
+.bash_history
+.zsh_history
+.python_history
+
+# Credenziali di altri applicativi
+.config/gh/
+.local/share/keyrings/
+
+# Cache e Cestino (evita di caricare giga di spazzatura)
+.cache/
+.local/share/Trash/
